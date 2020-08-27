@@ -1,0 +1,129 @@
+2020-08-27 15:04:49.277  INFO 15324 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1.1
+	Build:          1075
+	Build time:     13.07.2020 09:09:23 UTC
+	Branch          master
+	Commit:         f6a1a2a
+	Commit time:    13.07.2020 09:04:37 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.50
+
+2020-08-27 15:04:49.742  INFO 15324 --- [main] lavalink.server.Launcher                 : Starting Launcher on LAPTOP-FNA5K6KB with PID 15324 (C:\Users\milo5\Desktop\Discord Bots\MusicBot\server\Lavalink.jar started by milo5 in C:\Users\milo5\Desktop\Discord Bots\MusicBot\server)
+2020-08-27 15:04:49.744  INFO 15324 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-08-27 15:04:50.175  WARN 15324 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-27 15:04:55.373  WARN 15324 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-08-27 15:04:55.460  INFO 15324 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:04:55.461  INFO 15324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5501 ms
+2020-08-27 15:04:56.644  WARN 15324 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-08-27 15:04:56.676  INFO 15324 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-08-27 15:04:56.678  INFO 15324 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-08-27 15:04:56.680  INFO 15324 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-08-27 15:04:56.682  INFO 15324 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-08-27 15:04:57.751  INFO 15324 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-08-27 15:05:00.079  INFO 15324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:05:02.274  INFO 15324 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-08-27 15:05:02.376  INFO 15324 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-08-27 15:05:03.235  INFO 15324 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2020-08-27 15:05:03.252  INFO 15324 --- [main] lavalink.server.Launcher                 : Started Launcher in 15.864 seconds (JVM running for 17.692)
+2020-08-27 15:05:03.580  INFO 15324 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:05:03.582  INFO 15324 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:05:03.636  INFO 15324 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+2020-08-27 15:05:03.720  INFO 15324 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51536
+2020-08-27 15:05:04.475  INFO 15324 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:51536
+2020-08-27 15:05:05.649  INFO 15324 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-08-27 15:05:08.402  INFO 15324 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: europhia - ncs
+2020-08-27 15:05:08.947  INFO 15324 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"717043203311665162","sessionId":"be8182703c4b166399adec872b494aa1","event":{"token":"cf1607544c649f12","guild_id":"717043203311665162","endpoint":"eu-central255.discord.media:80"}}
+2020-08-27 15:05:08.987  INFO 15324 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"717043203311665162","track":"QAAAlAIAKVVwbGluayAmIENhc3Rpb24gLSBFdXBob3JpYSBbTkNTIFJlbGVhc2VdABFOb0NvcHlyaWdodFNvdW5kcwAAAAAAA0PwAAtNcXlPUHlCUGxucwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU1xeU9QeUJQbG5zAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":true}
+2020-08-27 15:05:11.354  INFO 15324 --- [parallel-2] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 2s, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-08-27 15:05:25.566  INFO 15324 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:51536 -- CloseStatus[code=1006, reason=]
+2020-08-27 15:05:25.571  INFO 15324 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2020-08-27 15:05:29.949  INFO 15324 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51551
+2020-08-27 15:05:30.057  INFO 15324 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:51551
+2020-08-27 15:05:32.012  INFO 15324 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-08-27 15:05:33.226  INFO 15324 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: europhia - ncs
+2020-08-27 15:05:33.672  INFO 15324 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"717043203311665162","sessionId":"b842c03179c531aa5860ed25333308a7","event":{"token":"cf1607544c649f12","guild_id":"717043203311665162","endpoint":"eu-central255.discord.media:80"}}
+2020-08-27 15:05:33.681  INFO 15324 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"717043203311665162","track":"QAAAlAIAKVVwbGluayAmIENhc3Rpb24gLSBFdXBob3JpYSBbTkNTIFJlbGVhc2VdABFOb0NvcHlyaWdodFNvdW5kcwAAAAAAA0PwAAtNcXlPUHlCUGxucwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU1xeU9QeUJQbG5zAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":true}
+2020-08-27 15:05:48.285  INFO 15324 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:51551 -- CloseStatus[code=1006, reason=]
+2020-08-27 15:05:48.289  INFO 15324 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2020-08-27 15:05:50.596  INFO 15324 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51569
+2020-08-27 15:05:50.619  INFO 15324 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:51569
+2020-08-27 15:05:54.743  INFO 15324 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-08-27 15:05:55.155  INFO 15324 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: europhia - ncs
+2020-08-27 15:05:55.407  INFO 15324 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"717043203311665162","sessionId":"a66de1d9378986aaae8e5bdcd5260c67","event":{"token":"cf1607544c649f12","guild_id":"717043203311665162","endpoint":"eu-central255.discord.media:80"}}
+2020-08-27 15:05:55.410  INFO 15324 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"play","guildId":"717043203311665162","track":"QAAAlAIAKVVwbGluayAmIENhc3Rpb24gLSBFdXBob3JpYSBbTkNTIFJlbGVhc2VdABFOb0NvcHlyaWdodFNvdW5kcwAAAAAAA0PwAAtNcXlPUHlCUGxucwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU1xeU9QeUJQbG5zAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":true}
+2020-08-27 15:06:19.571  INFO 15324 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:51569 -- CloseStatus[code=1006, reason=]
+2020-08-27 15:06:19.573  INFO 15324 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2020-08-27 15:06:21.272  INFO 15324 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:06:21.274  INFO 15324 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-08-27 15:06:21.282  INFO 15324 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-08-27 15:07:17.962  INFO 12260 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1.1
+	Build:          1075
+	Build time:     13.07.2020 09:09:23 UTC
+	Branch          master
+	Commit:         f6a1a2a
+	Commit time:    13.07.2020 09:04:37 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.50
+
+2020-08-27 15:07:18.308  INFO 12260 --- [main] lavalink.server.Launcher                 : Starting Launcher on LAPTOP-FNA5K6KB with PID 12260 (C:\Users\milo5\Desktop\Discord Bots\MusicBot\server\Lavalink.jar started by milo5 in C:\Users\milo5\Desktop\Discord Bots\MusicBot\server)
+2020-08-27 15:07:18.313  INFO 12260 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-08-27 15:07:18.763  WARN 12260 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-27 15:07:24.471  WARN 12260 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-08-27 15:07:24.570  INFO 12260 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:07:24.572  INFO 12260 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6060 ms
+2020-08-27 15:07:25.912  WARN 12260 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-08-27 15:07:25.939  INFO 12260 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-08-27 15:07:25.941  INFO 12260 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-08-27 15:07:25.943  INFO 12260 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-08-27 15:07:25.945  INFO 12260 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-08-27 15:07:27.395  INFO 12260 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-08-27 15:07:29.836  INFO 12260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:07:31.395  INFO 12260 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-08-27 15:07:31.463  INFO 12260 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-08-27 15:07:32.251  INFO 12260 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2020-08-27 15:07:32.263  INFO 12260 --- [main] lavalink.server.Launcher                 : Started Launcher in 16.381 seconds (JVM running for 18.546)
+2020-08-27 15:07:34.311  INFO 12260 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:07:34.313  INFO 12260 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:07:34.335  INFO 12260 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2020-08-27 15:07:34.385  INFO 12260 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51615
+2020-08-27 15:07:34.680  INFO 12260 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:51615
+2020-08-27 15:07:41.172  INFO 12260 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-08-27 15:07:42.605  INFO 12260 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: diamonds - ncs
+2020-08-27 15:07:43.090  INFO 12260 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"717043203311665162","sessionId":"85d2d6c67012bdc7a4fc4ff63f4727a1","event":{"token":"cf1607544c649f12","guild_id":"717043203311665162","endpoint":"eu-central255.discord.media:80"}}
+2020-08-27 15:07:43.103  INFO 12260 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"717043203311665162","track":"QAAAqwIAQFJNQ00gJiBKYW1lcyBSb2NoZSAtIERpYW1vbmRzIChmZWF0LiBNaWNhaCBNYXJ0aW4pIFtOQ1MgUmVsZWFzZV0AEU5vQ29weXJpZ2h0U291bmRzAAAAAAAC3mAAC05OOXVwZlBMRDBVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Tk45dXBmUExEMFUAB3lvdXR1YmUAAAAAAAAAAA==","noReplace":true}
+2020-08-27 15:07:43.424  INFO 12260 --- [parallel-2] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 239ms, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-08-27 15:07:51.540  INFO 12260 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-08-27 15:07:52.106  INFO 12260 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: europhia - ncs
+2020-08-27 15:08:04.472  INFO 12260 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:51615 -- CloseStatus[code=1006, reason=]
+2020-08-27 15:08:04.476  INFO 12260 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2020-08-27 15:08:06.962  INFO 12260 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51630
+2020-08-27 15:08:06.980  INFO 12260 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:51630
+2020-08-27 15:08:15.191  INFO 12260 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-08-27 15:08:15.731  INFO 12260 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: diamonds - ncs
+2020-08-27 15:08:16.021  INFO 12260 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"717043203311665162","sessionId":"59c7f0a2a677d2985744c99db7ae61e3","event":{"token":"cf1607544c649f12","guild_id":"717043203311665162","endpoint":"eu-central255.discord.media:80"}}
+2020-08-27 15:08:16.024  INFO 12260 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"717043203311665162","track":"QAAAqwIAQFJNQ00gJiBKYW1lcyBSb2NoZSAtIERpYW1vbmRzIChmZWF0LiBNaWNhaCBNYXJ0aW4pIFtOQ1MgUmVsZWFzZV0AEU5vQ29weXJpZ2h0U291bmRzAAAAAAAC3mAAC05OOXVwZlBMRDBVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Tk45dXBmUExEMFUAB3lvdXR1YmUAAAAAAAAAAA==","noReplace":true}
+2020-08-27 15:08:19.335  INFO 12260 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-08-27 15:08:19.786  INFO 12260 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: europhia - ncs
+2020-08-27 15:08:28.492  INFO 12260 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"717043203311665162","volume":15}
+2020-08-27 15:08:28.534  INFO 12260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$655/0x0000000801268040@32e50c3a
+2020-08-27 15:08:28.618  INFO 12260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2020-08-27 15:08:28.619  INFO 12260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2020-08-27 15:08:28.792  INFO 12260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2020-08-27 15:08:38.245  INFO 12260 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"717043203311665162"}
